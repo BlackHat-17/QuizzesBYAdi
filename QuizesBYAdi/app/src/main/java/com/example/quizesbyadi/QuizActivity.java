@@ -24,7 +24,8 @@ import java.util.List;
 import java.util.Objects;
 
 public class QuizActivity extends AppCompatActivity {
-    private static final String API_URL = "https://quizapi.io/api/v1/questions?apiKey=nfPrSfzev5WC0UkcFaToyxLbgq5GFAMa8hNbyh7P&limit=10";
+    String apiKey = getString(R.string.key);
+    private static final String API_URL = "https://quizapi.io/api/v1/questions?apiKey=$apikey&limit=10";
     private TextView questionTextView, timerTextView, scoreTextView;
     private RadioGroup optionsGroup;
     private Button nextButton;
