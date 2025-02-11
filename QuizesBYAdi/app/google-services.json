@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "8387999142",
+    "project_id": "quizesbyadi-c246a",
+    "storage_bucket": "quizesbyadi-c246a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8387999142:android:022d63ac6d5ac3934fcb67",
+        "android_client_info": {
+          "package_name": "com.example.quizesbyadi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmBi2peV1fEqGpGhdvWA9NuLYqDjzMN8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
